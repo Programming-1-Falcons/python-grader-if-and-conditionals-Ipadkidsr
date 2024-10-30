@@ -1,0 +1,19 @@
+which = input("Are you inputing celsius or fahrenheit? Yes for Celsius and No for Fahrenheit: ")    
+    
+if which == "Yes":    
+    temp_value = float(input("Input the celsius number: "))    
+    fahrenheit = (9/5 * temp_value) + 32    
+    
+    def celsius_to_fahrenheit():    
+        print(f"Converted Temperature: {fahrenheit}")
+        
+    celsius_to_fahrenheit()   
+    
+if which == "No":    
+    temp_value = float(input("Input the fahrenheit number: "))    
+    celsius = (5/9) * (temp_value - 32)    
+    
+    def fahrenheit_to_celsius():    
+        print(f"Converted Temperature: {celsius}")
+        
+    fahrenheit_to_celsius()    
